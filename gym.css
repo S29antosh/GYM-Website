@@ -1,0 +1,126 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+  background-image: url("pexels-victor-freitas-949131.jpg");
+  background-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  
+  display: inline-block;
+
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+ 
+}
+.menu {
+  
+  color: white;
+  display: block;
+  margin: 10px auto;
+  width: 35%;
+  align-items: center;
+}
+.like {
+  
+  color: white;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.❤️ {
+  display: inline-block;
+}
+.💙 {
+  display: inline-block;
+}
+.💙 a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 30px 30px 30px 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    
+}
+.💙 a:hover{
+    text-decoration: underline;
+    
+    color: rgb(77, 67, 67);
+    
+
+}
+.logo img{
+    width: 75px;
+    height: 60px;
+    border-radius: 25px;
+   
+  }
+  .logo{
+    
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  .like button{
+    margin: 10px 10px 10px 10px;
+    padding:0px 10px 0px 10px ; 
+    background-color: #1f2227;
+    color: white;
+    border: solid 4px;
+    border-radius: 10px;
+    border-color: #212227;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  .like button:hover{
+    background-color: black;
+    border: solid 4px black;
+    border-radius: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  .p{
+    margin: 200px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+  }
+    .form{
+        margin: 10px 10px 10px 500px;
+        padding: 0p 10px 10px 10px;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Baloo Bhai 2', cursive;
+       
+      }
+    .btn{
+        text-align: center;
+        padding: auto;
+        margin: 10px 10px 10px 720px;
+        background-color: black;
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        border-radius: 20px;
+        font-size: large;
+        
+    }
+
+    .btn:hover{
+        cursor: pointer;
+        color: #858991;
+    }
+    .form input{
+        background-color:rgb(255, 255, 255);
+      width: 500px;
+      height: 30px;
+      border: solid;
+      border-radius: 10px;
+      font-family: 'Baloo Bhai 2', cursive;
+      font-size: large;
+      
+    }
+    
+
+
