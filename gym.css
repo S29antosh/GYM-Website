@@ -1,36 +1,54 @@
 body {
     font-family: 'Baloo Bhai 2', cursive;
   background-image: url("pexels-victor-freitas-949131.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
+.head{
+  display: flex;
+   justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (max-width: 850px) {
+  .head{
+    flex-direction: column;
+  }
+  
+}
+  
+
 
 .logo {
   
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 
   color: white;
-  position: absolute;
-  left: 20px;
-  top: 10px;
+  
+  
  
 }
 .menu {
+  display: flex;
   
   color: white;
   display: block;
-  margin: 10px auto;
-  width: 35%;
+  
+  font-size: 20px;
   align-items: center;
 }
-.like {
-  
+.buttons {
+  display: block;
   color: white;
-  display: inline-block;
-  position: absolute;
-  right: 20px;
-  top: 10px;
+  
+  font-size: 20px;
+  
 }
 .❤️ {
   display: inline-block;
@@ -63,7 +81,7 @@ body {
     
     font-family: 'Baloo Bhai 2', cursive;
   }
-  .like button{
+  .buttons button{
     margin: 10px 10px 10px 10px;
     padding:0px 10px 0px 10px ; 
     background-color: #1f2227;
@@ -74,7 +92,7 @@ body {
     font-size: 20px;
     font-family: 'Baloo Bhai 2', cursive;
   }
-  .like button:hover{
+  .buttons button:hover{
     background-color: black;
     border: solid 4px black;
     border-radius: 10px;
@@ -83,42 +101,54 @@ body {
 
   }
   .p{
-    margin: 200px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+   
+   
+   width: 100vw;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Baloo Bhai 2', cursive;
+   
     
   }
-    .form{
-        margin: 10px 10px 10px 500px;
-        padding: 0p 10px 10px 10px;
-        font-size: 20px;
+    form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1em;
+        min-width: 400px;
+        margin: 0px auto;
+        
+        font-size: 14px;
         color: aliceblue;
         font-family: 'Baloo Bhai 2', cursive;
+        flex-wrap: wrap;
        
       }
-    .btn{
+    
+      
+    .btn input{ 
         text-align: center;
-        padding: auto;
-        margin: 10px 10px 10px 720px;
-        background-color: black;
         font-family: 'Baloo Bhai 2', cursive;
-        color: white;
+        color: rgb(65, 65, 65);
         border-radius: 20px;
         font-size: large;
         
     }
 
-    .btn:hover{
+    .btn input:hover{
         cursor: pointer;
         color: #858991;
     }
     .form input{
-        background-color:rgb(255, 255, 255);
-      width: 500px;
-      height: 30px;
-      border: solid;
+      display: inline-flex;
+      min-width: 400px;
+      width: 50vw;
+      border: #858991 solid;
       border-radius: 10px;
       font-family: 'Baloo Bhai 2', cursive;
       font-size: large;
+      background-color: aqua;
       
     }
     
